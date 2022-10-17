@@ -2,15 +2,15 @@
 
 /**
  * main - Entry point
- * Retrun: 0 no error, non zero if error
-*/
+ * Return: 0 no error, non zero if erro
+ */
 int main(void)
 {
-	char i;
-	
-	for (i = '0'; i <= '9'; i++)
+	char la;
+
+	for (la = '0'; la <= '9'; la++)
 	{
-		putchar(i);
+		putchar(la);
 	}
 	putchar('\n');
 	return (0);

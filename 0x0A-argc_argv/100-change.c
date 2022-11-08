@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * maain - prints the minimum number of coins
+ * main - prints the minimum number of coins
  * to make change for an amount of money
  * @argc: holds the number of arguements passsed
  * @argv: the array pointer that holds the arguements passsed

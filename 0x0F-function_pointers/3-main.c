@@ -30,6 +30,14 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
+	o = *argv[2];
+
+	if ((o == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
 	result = func(arg1, arg2);
 
 	printf("%d\n", result);
